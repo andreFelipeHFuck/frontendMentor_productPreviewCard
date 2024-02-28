@@ -1,0 +1,46 @@
+@import url(./card/card.css);
+@import url(./card/card-image.css);
+@import url(./card/card-information.css);
+@import url(./card/card-product-type.css);
+@import url(./card/card-product-title.css);
+@import url(./card/card-product-description.css);
+
+@import url(./prices/prices.css);
+@import url(./prices/prices-price.css);
+
+@import url(./card/card-button.css);
+@import url(./card/card-button-link.css);
+
+
+:root{
+    /* Colors */
+
+    /* Primary */
+    --dark-cyan: hsl(158, 36%, 37%);
+    --cream: #f3eae3;
+    /* hsl(30, 38%, 92%); */
+
+    /* Neutral */
+    --very-dark-blue: hsl(212, 21%, 14%);
+    --dark-grayish-blue: hsl(228, 12%, 48%);
+    --white: hsl(0, 0%, 100%);
+
+    /* Fonts */
+    --main-font: "Montserrat", sans-serif;
+    --secundary-font: "Fraunces", serif;
+}
+
+body{
+    align-items: center;
+    background-color: var(--cream);
+    display: flex;
+    font-family: var(--main-font);
+    font-size: 14px;
+    font-weight: 500;
+    height: 100vh;
+    justify-content: center;
+}
+
+p{
+    margin: 0;
+}

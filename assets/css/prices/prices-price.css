@@ -1,0 +1,14 @@
+.prices__price{
+    color: var(--dark-cyan);
+    font-size: 32px;
+    font-family: var(--secundary-font);
+    font-weight: 700;
+    padding-right: 0.5em;
+}
+
+.prices__price--total{
+    color: var(--dark-grayish-blue);
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: line-through;
+}

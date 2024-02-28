@@ -1,0 +1,14 @@
+.card{
+    background-color: var(--white);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 25em;
+}
+
+@media screen and (min-width: 1024px){
+    .card{
+        flex-direction: row;
+        width: 40em;
+    }
+}

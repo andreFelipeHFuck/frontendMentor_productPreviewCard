@@ -1,0 +1,16 @@
+.card__button{
+    background-color: var(--dark-cyan);
+    border-radius: 10px;
+    display: flex;
+    font-weight: 700;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    text-decoration: none;
+    justify-content: center;
+}
+
+@media screen and (min-width: 1024px){
+    .card__button:focus, .card__button:hover{
+        background-color: var(--very-dark-blue);
+    }
+}

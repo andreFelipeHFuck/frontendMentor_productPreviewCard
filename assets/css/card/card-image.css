@@ -1,0 +1,22 @@
+.card__image{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+}
+
+.card__image--desktop{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: none;
+    width: 20em;
+}
+
+@media screen and (min-width: 1024px){
+    .card__image{
+        display: none;
+    }
+
+    .card__image--desktop{
+        display: block;
+    }
+}
